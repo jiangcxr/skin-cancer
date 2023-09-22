@@ -1,1 +1,3 @@
-# skin-cancer
+# Skin Cancer Classification using Delaunay Triangulation and Graph Convolutional Network
+
+This project aimed to proposed a new model for screening skin cancer using Delaunay triangulation as the feature selection algorithm and Graph Convolutional Network (GCN) as the classification algorithm. The proposed model's performance was compared with the performance of the model that uses Convolutional Neural Network (CNN) as the classification algorithm as CNN is the most popular choice of image classification algorithm. CNN take the input and process it as a whole which would lead to overfitting. In this case, we want the algorithm to only focus on the cancer lesion and ignore the normal skin surrounding it. However, the model did not perform well due to the images were dominated by the normal skin area rather than the cancer lesion itself. The expected outcome of the proposed model is to overcome the challenges of CNN.
